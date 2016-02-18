@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">EHealth</string>
+    <string name="email_phone">Email/Phone</string>
+    <string name="password">Password</string>
+    <string name="signin">signin</string>
+    <string name="create_new_acc">Don\'t have account? Create!</string>
+    <string name="email">Email</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="phone">Phone</string>
+    <string name="male">Male</string>
+    <string name="female">female</string>
+    <string name="kid">Kid</string>
+    <string name="parent">Parent</string>
+    <string name="next">Next</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="exercise">Exercise</string>
+    <string name="food">Food</string>
+    <string name="home">Home</string>
+    <string name="grade">Grade</string>
+    <string name="last_match">Last Match: </string>
+    <string name="yesterday">Yesterday:</string>
+    <string name="progress">Progress</string>
+    <string name="my_progress">My Progress</string>
+    <string name="group_rank">Group Rank</string>
+    <string name="score">Score</string>
+    <string name="competitions">Competitions</string>
+
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>Home</item>
+        <item>Food</item>
+        <item>My Progress</item>
+        <item>Competitions</item>
+
+
+
+
+    </string-array>
+
+</resources>

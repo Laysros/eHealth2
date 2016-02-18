@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/general_background"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_marginRight="@dimen/margin_input"
+        android:layout_marginLeft="@dimen/margin_input"
+        android:layout_marginTop="@dimen/margin_signin"
+        android:id="@+id/iEmail"
+        android:inputType="textEmailAddress"
+        android:hint="@string/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_margin="@dimen/margin_input"
+        android:id="@+id/iPassword"
+        android:inputType="textPassword"
+        android:layout_marginTop="@dimen/margin_top_signin"
+        android:hint="@string/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_margin="@dimen/margin_input"
+        android:id="@+id/iConfirmPassword"
+        android:inputType="textPassword"
+        android:layout_marginTop="@dimen/margin_top_signin"
+        android:hint="@string/confirm_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_margin="@dimen/margin_input"
+        android:id="@+id/iPhone"
+        android:inputType="phone"
+        android:layout_marginTop="@dimen/margin_top_signin"
+        android:hint="@string/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RadioGroup
+        android:id="@+id/gender"
+        android:layout_margin="@dimen/margin_input"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rMale"
+            android:checked="true"
+            android:text="@string/male"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/rFemale"
+            android:layout_gravity="left"
+            android:text="@string/female"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+    <RadioGroup
+        android:id="@+id/type"
+        android:layout_margin="@dimen/margin_input"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rKid"
+            android:checked="true"
+            android:text="@string/kid"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/rParent"
+            android:layout_gravity="left"
+            android:text="@string/parent"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+
+    <Button
+        android:background="@color/colorPrimary"
+        android:textColor="@color/background"
+        android:id="@+id/bNext"
+        android:layout_margin="@dimen/margin_top_signin"
+        android:layout_gravity="center"
+        android:padding="@dimen/padding_create"
+        android:text="@string/next"
+        android:layout_width="@dimen/button_signin_width"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

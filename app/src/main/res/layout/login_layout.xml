@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:layout_height="match_parent">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="@dimen/margin_top_card"
+        android:background="@color/background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:paddingTop="@dimen/margin_top_email"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:id="@+id/iEmail"
+                android:hint="@string/email_phone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <EditText
+                android:id="@+id/iPassword"
+                android:layout_marginTop="@dimen/margin_top_signin"
+                android:inputType="textPassword"
+                android:hint="@string/password"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <Button
+                android:id="@+id/bSignin"
+                android:layout_margin="@dimen/margin_signin"
+                android:background="@drawable/button_signin"
+                android:layout_gravity="center"
+                android:text="@string/signin"
+                android:layout_width="@dimen/button_signin_width"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+
+    </android.support.v7.widget.CardView>
+
+    <Button
+        android:id="@+id/bCreateNewAcc"
+        android:textColor="@color/background"
+        android:layout_margin="@dimen/margin_top_signin"
+        android:layout_gravity="center"
+        android:background="@drawable/button_signin"
+        android:padding="@dimen/padding_create"
+        android:text="@string/create_new_acc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
